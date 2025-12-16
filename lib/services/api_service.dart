@@ -71,6 +71,22 @@ class ApiService {
     return await _dio.post('/auth/logout');
   }
 
+  // Health check endpoint (health is at root, not under /api)
+  Future<Response> healthCheck() async {
+    // Health endpoint is at root level, not under /api
+    // So we need to use the base server URL without /api
+    final serverBaseUrl = ApiConfig.serverBaseUrl;
+    
+    // Create a temporary Dio instance for health check
+    final healthDio = Dio(BaseOptions(
+      baseUrl: serverBaseUrl,
+      connectTimeout: const Duration(seconds: 5),
+      receiveTimeout: const Duration(seconds: 5),
+    ));
+    
+    return await healthDio.get('/health');
+  }
+
   // Attendance
   Future<Response> checkIn({
     String? userId,
@@ -154,6 +170,51 @@ class ApiService {
     if (endDate != null) queryParams['endDate'] = endDate.toIso8601String();
     
     return await _dio.get('/attendance/stats', queryParameters: queryParams);
+  }
+
+  // User management endpoints
+  Future<Response> getAllUsers({
+    int page = 1,
+    int limit = 50,
+    String? role,
+    String? search,
+  }) async {
+    final queryParams = <String, dynamic>{
+      'page': page,
+      'limit': limit,
+    };
+    if (role != null) queryParams['role'] = role;
+    if (search != null) queryParams['search'] = search;
+    
+    return await _dio.get('/users', queryParameters: queryParams);
+  }
+
+  Future<Response> getUserById(String userId) async {
+    return await _dio.get('/users/$userId');
+  }
+
+  Future<Response> updateUser({
+    required String userId,
+    String? name,
+    String? email,
+    String? phoneNumber,
+    String? role,
+    String? department,
+    bool? isActive,
+  }) async {
+    final data = <String, dynamic>{};
+    if (name != null) data['name'] = name;
+    if (email != null) data['email'] = email;
+    if (phoneNumber != null) data['phoneNumber'] = phoneNumber;
+    if (role != null) data['role'] = role;
+    if (department != null) data['department'] = department;
+    if (isActive != null) data['isActive'] = isActive;
+    
+    return await _dio.put('/users/$userId', data: data);
+  }
+
+  Future<Response> deleteUser(String userId) async {
+    return await _dio.delete('/users/$userId');
   }
 
   // Error handling helper

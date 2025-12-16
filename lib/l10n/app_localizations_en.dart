@@ -304,4 +304,19 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get registrationSuccessful => 'Registration successful!';
+
+  @override
+  String get serverConnected => 'Connected';
+
+  @override
+  String get serverDisconnected => 'Disconnected';
+
+  @override
+  String get connecting => 'Connecting...';
+
+  @override
+  String get syncing => 'Syncing...';
+
+  @override
+  String get retry => 'Retry';
 }

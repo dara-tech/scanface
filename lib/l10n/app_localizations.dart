@@ -685,6 +685,36 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Registration successful!'**
   String get registrationSuccessful;
+
+  /// Server connected status
+  ///
+  /// In en, this message translates to:
+  /// **'Connected'**
+  String get serverConnected;
+
+  /// Server disconnected status
+  ///
+  /// In en, this message translates to:
+  /// **'Disconnected'**
+  String get serverDisconnected;
+
+  /// Connecting status
+  ///
+  /// In en, this message translates to:
+  /// **'Connecting...'**
+  String get connecting;
+
+  /// Syncing status
+  ///
+  /// In en, this message translates to:
+  /// **'Syncing...'**
+  String get syncing;
+
+  /// Retry button text
+  ///
+  /// In en, this message translates to:
+  /// **'Retry'**
+  String get retry;
 }
 
 class _AppLocalizationsDelegate

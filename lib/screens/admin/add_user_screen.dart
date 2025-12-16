@@ -50,13 +50,18 @@ class _AddUserScreenState extends State<AddUserScreen> {
         department: _departmentController.text.trim().isEmpty
           ? null
           : _departmentController.text.trim(),
+        context: context, // Pass context for auth token
       );
 
       if (!mounted) return;
 
       Navigator.of(context).pop();
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('${AppLocalizations.of(context)!.user} ${AppLocalizations.of(context)!.success.toLowerCase()}')),
+        SnackBar(
+          content: Text('${AppLocalizations.of(context)!.user} ${AppLocalizations.of(context)!.success.toLowerCase()}'),
+          backgroundColor: Colors.green,
+          duration: const Duration(seconds: 2),
+        ),
       );
     } catch (e) {
       setState(() {

@@ -494,5 +494,30 @@
   "registrationSuccessful": "Registration successful!",
   "@registrationSuccessful": {
     "description": "Successful registration message"
+  },
+  
+  "serverConnected": "Connected",
+  "@serverConnected": {
+    "description": "Server connected status"
+  },
+  
+  "serverDisconnected": "Disconnected",
+  "@serverDisconnected": {
+    "description": "Server disconnected status"
+  },
+  
+  "connecting": "Connecting...",
+  "@connecting": {
+    "description": "Connecting status"
+  },
+  
+  "syncing": "Syncing...",
+  "@syncing": {
+    "description": "Syncing status"
+  },
+  
+  "retry": "Retry",
+  "@retry": {
+    "description": "Retry button text"
   }
 }

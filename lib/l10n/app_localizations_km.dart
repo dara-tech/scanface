@@ -304,4 +304,19 @@ class AppLocalizationsKm extends AppLocalizations {
 
   @override
   String get registrationSuccessful => 'ចុះឈ្មោះជោគជ័យ!';
+
+  @override
+  String get serverConnected => 'បានភ្ជាប់';
+
+  @override
+  String get serverDisconnected => 'មិនបានភ្ជាប់';
+
+  @override
+  String get connecting => 'កំពុងភ្ជាប់...';
+
+  @override
+  String get syncing => 'កំពុងធ្វើសមកាលកម្ម...';
+
+  @override
+  String get retry => 'ព្យាយាមម្តងទៀត';
 }

@@ -19,7 +19,7 @@ class _UserManagementScreenState extends State<UserManagementScreen> {
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      Provider.of<UserProvider>(context, listen: false).loadAllUsers();
+      Provider.of<UserProvider>(context, listen: false).loadAllUsers(context: context);
     });
   }
 
@@ -78,7 +78,7 @@ class _UserManagementScreenState extends State<UserManagementScreen> {
           }
 
           return RefreshIndicator(
-            onRefresh: () => userProvider.loadAllUsers(),
+            onRefresh: () => userProvider.loadAllUsers(context: context),
             child: ListView.builder(
               padding: const EdgeInsets.all(16),
               itemCount: users.length,
@@ -143,7 +143,7 @@ class _UserManagementScreenState extends State<UserManagementScreen> {
                               ),
                               onTap: () async {
                                 final updated = user.copyWith(isActive: !user.isActive);
-                                await userProvider.updateUser(updated);
+                                await userProvider.updateUser(updated, context: context);
                               },
                             ),
                             PopupMenuItem(
@@ -177,7 +177,7 @@ class _UserManagementScreenState extends State<UserManagementScreen> {
                                 );
 
                                 if (confirmed == true) {
-                                  await userProvider.deleteUser(user.id);
+                                  await userProvider.deleteUser(user.id, context: context);
                                   if (!mounted) return;
                                   ScaffoldMessenger.of(context).showSnackBar(
                                     SnackBar(content: Text('${AppLocalizations.of(context)!.user} ${AppLocalizations.of(context)!.deleteUser.toLowerCase()}')),

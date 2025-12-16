@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../providers/auth_provider.dart';
 import '../../providers/attendance_provider.dart';
+import '../../providers/connection_provider.dart';
 import '../../models/attendance_model.dart';
 import '../../utils/helpers.dart';
+import '../../widgets/connection_status_widget.dart';
 import 'package:attendance_app/l10n/app_localizations.dart';
 import 'user_management_screen.dart';
 import 'face_registration_screen.dart';
@@ -37,6 +39,10 @@ class _AdminDashboardScreenState extends State<AdminDashboardScreen> {
       appBar: AppBar(
         title: Text(AppLocalizations.of(context)!.adminDashboard),
         actions: [
+          const Padding(
+            padding: EdgeInsets.only(right: 8.0),
+            child: ConnectionStatusWidget(compact: true),
+          ),
           IconButton(
             icon: const Icon(Icons.logout),
             tooltip: AppLocalizations.of(context)!.logout,
@@ -52,13 +58,20 @@ class _AdminDashboardScreenState extends State<AdminDashboardScreen> {
           ),
         ],
       ),
-      body: IndexedStack(
-        index: _currentIndex,
+      body: Column(
         children: [
-          _buildDashboardTab(),
-          const UserManagementScreen(),
-          const FaceRegistrationScreen(),
-          const AttendanceReportScreen(),
+          const ConnectionStatusBar(),
+          Expanded(
+            child: IndexedStack(
+              index: _currentIndex,
+              children: [
+                _buildDashboardTab(),
+                const UserManagementScreen(),
+                const FaceRegistrationScreen(),
+                const AttendanceReportScreen(),
+              ],
+            ),
+          ),
         ],
       ),
       bottomNavigationBar: Container(

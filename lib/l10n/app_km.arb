@@ -494,5 +494,30 @@
   "registrationSuccessful": "ចុះឈ្មោះជោគជ័យ!",
   "@registrationSuccessful": {
     "description": "Successful registration message"
+  },
+  
+  "serverConnected": "បានភ្ជាប់",
+  "@serverConnected": {
+    "description": "Server connected status"
+  },
+  
+  "serverDisconnected": "មិនបានភ្ជាប់",
+  "@serverDisconnected": {
+    "description": "Server disconnected status"
+  },
+  
+  "connecting": "កំពុងភ្ជាប់...",
+  "@connecting": {
+    "description": "Connecting status"
+  },
+  
+  "syncing": "កំពុងធ្វើសមកាលកម្ម...",
+  "@syncing": {
+    "description": "Syncing status"
+  },
+  
+  "retry": "ព្យាយាមម្តងទៀត",
+  "@retry": {
+    "description": "Retry button text"
   }
 }

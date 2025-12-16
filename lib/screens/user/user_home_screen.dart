@@ -3,7 +3,9 @@ import 'package:provider/provider.dart';
 import 'package:attendance_app/l10n/app_localizations.dart';
 import '../../providers/auth_provider.dart';
 import '../../providers/attendance_provider.dart';
+import '../../providers/connection_provider.dart';
 import '../../utils/helpers.dart';
+import '../../widgets/connection_status_widget.dart';
 import 'check_in_screen.dart';
 import 'attendance_history_screen.dart';
 import 'profile_screen.dart';
@@ -55,13 +57,26 @@ class _UserHomeScreenState extends State<UserHomeScreen> {
           user?.name ?? AppLocalizations.of(context)!.user,
           style: theme.textTheme.titleLarge,
         ),
+        actions: const [
+          Padding(
+            padding: EdgeInsets.only(right: 8.0),
+            child: ConnectionStatusWidget(compact: true),
+          ),
+        ],
       ),
-      body: IndexedStack(
-        index: _currentIndex,
+      body: Column(
         children: [
-          _buildHomeTab(theme, colors),
-          const AttendanceHistoryScreen(),
-          ProfileScreen(),
+          const ConnectionStatusBar(),
+          Expanded(
+            child: IndexedStack(
+              index: _currentIndex,
+              children: [
+                _buildHomeTab(theme, colors),
+                const AttendanceHistoryScreen(),
+                ProfileScreen(),
+              ],
+            ),
+          ),
         ],
       ),
       bottomNavigationBar: Container(

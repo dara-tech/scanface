@@ -61,7 +61,10 @@ This guide will help you deploy your attendance backend to Render.
    JWT_SECRET=your-super-secret-jwt-key-min-32-characters-long
    JWT_EXPIRES_IN=7d
    CORS_ORIGIN=*
+   SERVER_URL=https://your-app-name.onrender.com
    ```
+   
+   **Important:** Set `SERVER_URL` to your Render URL (e.g., `https://scanface-tztq.onrender.com`) to enable auto-ping that keeps the server alive every 14 minutes.
 
 5. **Deploy**
    - Click **"Create Web Service"**

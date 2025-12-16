@@ -47,7 +47,10 @@
    JWT_SECRET=generate-a-random-32-character-string-here
    JWT_EXPIRES_IN=7d
    CORS_ORIGIN=*
+   SERVER_URL=https://your-app-name.onrender.com
    ```
+   
+   **Note:** `SERVER_URL` enables auto-ping to keep server alive (pings every 14 minutes).
 
 4. **Deploy:**
    - Click **"Create Web Service"**

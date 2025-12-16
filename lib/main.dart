@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'providers/auth_provider.dart';
 import 'providers/attendance_provider.dart';
 import 'providers/user_provider.dart';
+import 'providers/connection_provider.dart';
 import 'screens/auth/login_screen.dart';
 import 'screens/admin/admin_dashboard_screen.dart';
 import 'screens/user/user_home_screen.dart';
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
+        ChangeNotifierProvider(create: (_) => ConnectionProvider()),
         ChangeNotifierProvider(create: (_) => AuthProvider()),
         ChangeNotifierProvider(create: (_) => AttendanceProvider()),
         ChangeNotifierProvider(create: (_) => UserProvider()),
