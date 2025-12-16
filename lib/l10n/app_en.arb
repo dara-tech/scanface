@@ -1,0 +1,498 @@
+{
+  "@@locale": "en",
+  
+  "appTitle": "Attendance App",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  
+  "faceRecognitionSystem": "Face Recognition System",
+  "@faceRecognitionSystem": {
+    "description": "Subtitle for face recognition"
+  },
+  
+  "email": "Email",
+  "@email": {
+    "description": "Email field label"
+  },
+  
+  "password": "Password",
+  "@password": {
+    "description": "Password field label"
+  },
+  
+  "login": "Login",
+  "@login": {
+    "description": "Login button text"
+  },
+  
+  "logout": "Logout",
+  "@logout": {
+    "description": "Logout button text"
+  },
+  
+  "hello": "Hello",
+  "@hello": {
+    "description": "Greeting prefix"
+  },
+  
+  "helloUser": "Hello, {userName}",
+  "@helloUser": {
+    "description": "Greeting with user name",
+    "placeholders": {
+      "userName": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "goodMorning": "Good Morning",
+  "@goodMorning": {
+    "description": "Morning greeting"
+  },
+  
+  "goodAfternoon": "Good Afternoon",
+  "@goodAfternoon": {
+    "description": "Afternoon greeting"
+  },
+  
+  "goodEvening": "Good Evening",
+  "@goodEvening": {
+    "description": "Evening greeting"
+  },
+  
+  "attendancePulse": "Attendance pulse",
+  "@attendancePulse": {
+    "description": "Header label for attendance"
+  },
+  
+  "todayStatus": "Today's status",
+  "@todayStatus": {
+    "description": "Today's attendance status"
+  },
+  
+  "checkIn": "Check In",
+  "@checkIn": {
+    "description": "Check in button text"
+  },
+  
+  "checkOut": "Check Out",
+  "@checkOut": {
+    "description": "Check out button text"
+  },
+  
+  "checkInTime": "Check-in",
+  "@checkInTime": {
+    "description": "Check in time label"
+  },
+  
+  "checkOutTime": "Check-out",
+  "@checkOutTime": {
+    "description": "Check out time label"
+  },
+  
+  "workingHours": "Working hours",
+  "@workingHours": {
+    "description": "Working hours label"
+  },
+  
+  "thisMonth": "This month",
+  "@thisMonth": {
+    "description": "This month statistics label"
+  },
+  
+  "present": "Present",
+  "@present": {
+    "description": "Present status"
+  },
+  
+  "late": "Late",
+  "@late": {
+    "description": "Late status"
+  },
+  
+  "absent": "Absent",
+  "@absent": {
+    "description": "Absent status"
+  },
+  
+  "notCheckedInYet": "You haven't checked in yet.",
+  "@notCheckedInYet": {
+    "description": "Not checked in message"
+  },
+  
+  "profile": "Profile",
+  "@profile": {
+    "description": "Profile screen title"
+  },
+  
+  "name": "Name",
+  "@name": {
+    "description": "Name field label"
+  },
+  
+  "phone": "Phone",
+  "@phone": {
+    "description": "Phone field label"
+  },
+  
+  "role": "Role",
+  "@role": {
+    "description": "Role field label"
+  },
+  
+  "department": "Department",
+  "@department": {
+    "description": "Department field label"
+  },
+  
+  "home": "Home",
+  "@home": {
+    "description": "Home navigation label"
+  },
+  
+  "history": "History",
+  "@history": {
+    "description": "History navigation label"
+  },
+  
+  "attendanceHistory": "Attendance History",
+  "@attendanceHistory": {
+    "description": "Attendance history screen title"
+  },
+  
+  "noAttendanceRecords": "No attendance records",
+  "@noAttendanceRecords": {
+    "description": "No attendance records message"
+  },
+  
+  "positionYourFace": "Position your face in the frame",
+  "@positionYourFace": {
+    "description": "Face positioning instruction"
+  },
+  
+  "processing": "Processing...",
+  "@processing": {
+    "description": "Processing message"
+  },
+  
+  "faceDetected": "Face detected",
+  "@faceDetected": {
+    "description": "Face detected message"
+  },
+  
+  "positionFaceBetter": "Please position your face better",
+  "@positionFaceBetter": {
+    "description": "Better face positioning instruction"
+  },
+  
+  "multipleFacesDetected": "Multiple faces detected",
+  "@multipleFacesDetected": {
+    "description": "Multiple faces detected message"
+  },
+  
+  "noFaceDetected": "No face detected",
+  "@noFaceDetected": {
+    "description": "No face detected message"
+  },
+  
+  "checkInSuccessful": "Check-in successful!",
+  "@checkInSuccessful": {
+    "description": "Successful check-in message"
+  },
+  
+  "checkOutSuccessful": "Checked out successfully!",
+  "@checkOutSuccessful": {
+    "description": "Successful check-out message"
+  },
+  
+  "user": "User",
+  "@user": {
+    "description": "User label"
+  },
+  
+  "admin": "Admin",
+  "@admin": {
+    "description": "Admin label"
+  },
+  
+  "employee": "Employee",
+  "@employee": {
+    "description": "Employee role"
+  },
+  
+  "student": "Student",
+  "@student": {
+    "description": "Student role"
+  },
+  
+  "status": "Status",
+  "@status": {
+    "description": "Status label"
+  },
+  
+  "date": "Date",
+  "@date": {
+    "description": "Date label"
+  },
+  
+  "time": "Time",
+  "@time": {
+    "description": "Time label"
+  },
+  
+  "duration": "Duration",
+  "@duration": {
+    "description": "Duration label"
+  },
+  
+  "total": "Total",
+  "@total": {
+    "description": "Total label"
+  },
+  
+  "noUserData": "No user data",
+  "@noUserData": {
+    "description": "No user data message"
+  },
+  
+  "pleaseEnterEmail": "Please enter your email",
+  "@pleaseEnterEmail": {
+    "description": "Email validation message"
+  },
+  
+  "pleaseEnterValidEmail": "Please enter a valid email",
+  "@pleaseEnterValidEmail": {
+    "description": "Valid email validation message"
+  },
+  
+  "pleaseEnterPassword": "Please enter your password",
+  "@pleaseEnterPassword": {
+    "description": "Password validation message"
+  },
+  
+  "loginNote": "Note: For demo, use your email as both email and password",
+  "@loginNote": {
+    "description": "Login demo note"
+  },
+  
+  "adminDashboard": "Admin Dashboard",
+  "@adminDashboard": {
+    "description": "Admin dashboard title"
+  },
+  
+  "totalUsers": "Total Users",
+  "@totalUsers": {
+    "description": "Total users label"
+  },
+  
+  "todayPresent": "Today Present",
+  "@todayPresent": {
+    "description": "Today present count"
+  },
+  
+  "todayAbsent": "Today Absent", 
+  "@todayAbsent": {
+    "description": "Today absent count"
+  },
+  
+  "todayLate": "Today Late",
+  "@todayLate": {
+    "description": "Today late count"
+  },
+  
+  "userManagement": "User Management",
+  "@userManagement": {
+    "description": "User management title"
+  },
+  
+  "attendanceReports": "Attendance Reports",
+  "@attendanceReports": {
+    "description": "Attendance reports title"
+  },
+  
+  "faceRegistration": "Face Registration",
+  "@faceRegistration": {
+    "description": "Face registration title"
+  },
+  
+  "addUser": "Add User",
+  "@addUser": {
+    "description": "Add user button"
+  },
+  
+  "editUser": "Edit User",
+  "@editUser": {
+    "description": "Edit user button"
+  },
+  
+  "deleteUser": "Delete User",
+  "@deleteUser": {
+    "description": "Delete user button"
+  },
+  
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  
+  "save": "Save",
+  "@save": {
+    "description": "Save button"
+  },
+  
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "Confirm button"
+  },
+  
+  "search": "Search",
+  "@search": {
+    "description": "Search placeholder"
+  },
+  
+  "filter": "Filter",
+  "@filter": {
+    "description": "Filter button"
+  },
+  
+  "export": "Export",
+  "@export": {
+    "description": "Export button"
+  },
+  
+  "generateReport": "Generate Report",
+  "@generateReport": {
+    "description": "Generate report button"
+  },
+  
+  "fromDate": "From Date",
+  "@fromDate": {
+    "description": "From date label"
+  },
+  
+  "toDate": "To Date",
+  "@toDate": {
+    "description": "To date label"
+  },
+  
+  "selectDate": "Select Date",
+  "@selectDate": {
+    "description": "Select date placeholder"
+  },
+  
+  "noData": "No data",
+  "@noData": {
+    "description": "No data message"
+  },
+  
+  "loading": "Loading...",
+  "@loading": {
+    "description": "Loading message"
+  },
+  
+  "error": "Error",
+  "@error": {
+    "description": "Error label"
+  },
+  
+  "success": "Success",
+  "@success": {
+    "description": "Success label"
+  },
+  
+  "warning": "Warning",
+  "@warning": {
+    "description": "Warning label"
+  },
+  
+  "info": "Info",
+  "@info": {
+    "description": "Info label"
+  },
+  
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings title"
+  },
+  
+  "language": "Language",
+  "@language": {
+    "description": "Language label"
+  },
+  
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Notifications label"
+  },
+  
+  "about": "About",
+  "@about": {
+    "description": "About label"
+  },
+  
+  "version": "Version",
+  "@version": {
+    "description": "Version label"
+  },
+  
+  "help": "Help",
+  "@help": {
+    "description": "Help label"
+  },
+  
+  "contactSupport": "Contact Support",
+  "@contactSupport": {
+    "description": "Contact support label"
+  },
+  
+  "register": "Register",
+  "@register": {
+    "description": "Register button text"
+  },
+  
+  "createAccount": "Create Account",
+  "@createAccount": {
+    "description": "Create account title"
+  },
+  
+  "alreadyHaveAccount": "Already have an account?",
+  "@alreadyHaveAccount": {
+    "description": "Already have account message"
+  },
+  
+  "dontHaveAccount": "Don't have an account?",
+  "@dontHaveAccount": {
+    "description": "Don't have account message"
+  },
+  
+  "pleaseEnterName": "Please enter your name",
+  "@pleaseEnterName": {
+    "description": "Name validation message"
+  },
+  
+  "passwordTooShort": "Password must be at least 6 characters",
+  "@passwordTooShort": {
+    "description": "Password length validation message"
+  },
+  
+  "confirmPassword": "Confirm Password",
+  "@confirmPassword": {
+    "description": "Confirm password field label"
+  },
+  
+  "passwordsDoNotMatch": "Passwords do not match",
+  "@passwordsDoNotMatch": {
+    "description": "Password mismatch validation message"
+  },
+  
+  "pleaseEnterConfirmPassword": "Please confirm your password",
+  "@pleaseEnterConfirmPassword": {
+    "description": "Confirm password validation message"
+  },
+  
+  "registrationSuccessful": "Registration successful!",
+  "@registrationSuccessful": {
+    "description": "Successful registration message"
+  }
+}

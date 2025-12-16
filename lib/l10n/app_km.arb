@@ -1,0 +1,498 @@
+{
+  "@@locale": "km",
+  
+  "appTitle": "កម្មវិធីវត្តមាន",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  
+  "faceRecognitionSystem": "ប្រព័ន្ធស្គាល់មុខ",
+  "@faceRecognitionSystem": {
+    "description": "Subtitle for face recognition"
+  },
+  
+  "email": "អ៊ីមែល",
+  "@email": {
+    "description": "Email field label"
+  },
+  
+  "password": "ពាក្យសម្ងាត់",
+  "@password": {
+    "description": "Password field label"
+  },
+  
+  "login": "ចូល",
+  "@login": {
+    "description": "Login button text"
+  },
+  
+  "logout": "ចេញ",
+  "@logout": {
+    "description": "Logout button text"
+  },
+  
+  "hello": "សួស្តី",
+  "@hello": {
+    "description": "Greeting prefix"
+  },
+  
+  "helloUser": "សួស្តី {userName}",
+  "@helloUser": {
+    "description": "Greeting with user name",
+    "placeholders": {
+      "userName": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "goodMorning": "អរុណសួស្តី",
+  "@goodMorning": {
+    "description": "Morning greeting"
+  },
+  
+  "goodAfternoon": "ទិវាសួស្តី",
+  "@goodAfternoon": {
+    "description": "Afternoon greeting"
+  },
+  
+  "goodEvening": "សាយ័ណសួស្តី",
+  "@goodEvening": {
+    "description": "Evening greeting"
+  },
+  
+  "attendancePulse": "ស្ថានភាពវត្តមាន",
+  "@attendancePulse": {
+    "description": "Header label for attendance"
+  },
+  
+  "todayStatus": "ស្ថានភាពថ្ងៃនេះ",
+  "@todayStatus": {
+    "description": "Today's attendance status"
+  },
+  
+  "checkIn": "ចូលធ្វើការ",
+  "@checkIn": {
+    "description": "Check in button text"
+  },
+  
+  "checkOut": "ចេញពីការងារ",
+  "@checkOut": {
+    "description": "Check out button text"
+  },
+  
+  "checkInTime": "ម៉ោងចូល",
+  "@checkInTime": {
+    "description": "Check in time label"
+  },
+  
+  "checkOutTime": "ម៉ោងចេញ",
+  "@checkOutTime": {
+    "description": "Check out time label"
+  },
+  
+  "workingHours": "ម៉ោងធ្វើការ",
+  "@workingHours": {
+    "description": "Working hours label"
+  },
+  
+  "thisMonth": "ខែនេះ",
+  "@thisMonth": {
+    "description": "This month statistics label"
+  },
+  
+  "present": "វត្តមាន",
+  "@present": {
+    "description": "Present status"
+  },
+  
+  "late": "យឺត",
+  "@late": {
+    "description": "Late status"
+  },
+  
+  "absent": "អវត្តមាន",
+  "@absent": {
+    "description": "Absent status"
+  },
+  
+  "notCheckedInYet": "អ្នកមិនទាន់បានចូលធ្វើការទេ។",
+  "@notCheckedInYet": {
+    "description": "Not checked in message"
+  },
+  
+  "profile": "ប្រវត្តិរូប",
+  "@profile": {
+    "description": "Profile screen title"
+  },
+  
+  "name": "ឈ្មោះ",
+  "@name": {
+    "description": "Name field label"
+  },
+  
+  "phone": "ទូរស័ព្ទ",
+  "@phone": {
+    "description": "Phone field label"
+  },
+  
+  "role": "តួនាទី",
+  "@role": {
+    "description": "Role field label"
+  },
+  
+  "department": "ផ្នែក",
+  "@department": {
+    "description": "Department field label"
+  },
+  
+  "home": "ទំព័រដើម",
+  "@home": {
+    "description": "Home navigation label"
+  },
+  
+  "history": "ប្រវត្តិ",
+  "@history": {
+    "description": "History navigation label"
+  },
+  
+  "attendanceHistory": "ប្រវត្តិវត្តមាន",
+  "@attendanceHistory": {
+    "description": "Attendance history screen title"
+  },
+  
+  "noAttendanceRecords": "មិនមានកំណត់ត្រាវត្តមាន",
+  "@noAttendanceRecords": {
+    "description": "No attendance records message"
+  },
+  
+  "positionYourFace": "ដាក់មុខរបស់អ្នកក្នុងស៊ុម",
+  "@positionYourFace": {
+    "description": "Face positioning instruction"
+  },
+  
+  "processing": "កំពុងដំណើរការ...",
+  "@processing": {
+    "description": "Processing message"
+  },
+  
+  "faceDetected": "បានរកឃើញមុខ",
+  "@faceDetected": {
+    "description": "Face detected message"
+  },
+  
+  "positionFaceBetter": "សូមដាក់មុខរបស់អ្នកឱ្យបានត្រឹមត្រូវ",
+  "@positionFaceBetter": {
+    "description": "Better face positioning instruction"
+  },
+  
+  "multipleFacesDetected": "បានរកឃើញមុខច្រើន",
+  "@multipleFacesDetected": {
+    "description": "Multiple faces detected message"
+  },
+  
+  "noFaceDetected": "មិនបានរកឃើញមុខ",
+  "@noFaceDetected": {
+    "description": "No face detected message"
+  },
+  
+  "checkInSuccessful": "ចូលធ្វើការជោគជ័យ!",
+  "@checkInSuccessful": {
+    "description": "Successful check-in message"
+  },
+  
+  "checkOutSuccessful": "ចេញពីការងារជោគជ័យ!",
+  "@checkOutSuccessful": {
+    "description": "Successful check-out message"
+  },
+  
+  "user": "អ្នកប្រើប្រាស់",
+  "@user": {
+    "description": "User label"
+  },
+  
+  "admin": "អ្នកគ្រប់គ្រង",
+  "@admin": {
+    "description": "Admin label"
+  },
+  
+  "employee": "បុគ្គលិក",
+  "@employee": {
+    "description": "Employee role"
+  },
+  
+  "student": "សិស្ស",
+  "@student": {
+    "description": "Student role"
+  },
+  
+  "status": "ស្ថានភាព",
+  "@status": {
+    "description": "Status label"
+  },
+  
+  "date": "កាលបរិច្ឆេទ",
+  "@date": {
+    "description": "Date label"
+  },
+  
+  "time": "ពេលវេលា",
+  "@time": {
+    "description": "Time label"
+  },
+  
+  "duration": "រយៈពេល",
+  "@duration": {
+    "description": "Duration label"
+  },
+  
+  "total": "សរុប",
+  "@total": {
+    "description": "Total label"
+  },
+  
+  "noUserData": "មិនមានទិន្នន័យអ្នកប្រើប្រាស់",
+  "@noUserData": {
+    "description": "No user data message"
+  },
+  
+  "pleaseEnterEmail": "សូមបញ្ចូលអ៊ីមែលរបស់អ្នក",
+  "@pleaseEnterEmail": {
+    "description": "Email validation message"
+  },
+  
+  "pleaseEnterValidEmail": "សូមបញ្ចូលអ៊ីមែលត្រឹមត្រូវ",
+  "@pleaseEnterValidEmail": {
+    "description": "Valid email validation message"
+  },
+  
+  "pleaseEnterPassword": "សូមបញ្ចូលពាក្យសម្ងាត់របស់អ្នក",
+  "@pleaseEnterPassword": {
+    "description": "Password validation message"
+  },
+  
+  "loginNote": "ចំណាំ៖ សម្រាប់សាកល្បង សូមប្រើអ៊ីមែលរបស់អ្នកទាំងអ៊ីមែល និងពាក្យសម្ងាត់",
+  "@loginNote": {
+    "description": "Login demo note"
+  },
+  
+  "adminDashboard": "ផ្ទាំងគ្រប់គ្រង",
+  "@adminDashboard": {
+    "description": "Admin dashboard title"
+  },
+  
+  "totalUsers": "អ្នកប្រើប្រាស់សរុប",
+  "@totalUsers": {
+    "description": "Total users label"
+  },
+  
+  "todayPresent": "វត្តមានថ្ងៃនេះ",
+  "@todayPresent": {
+    "description": "Today present count"
+  },
+  
+  "todayAbsent": "អវត្តមានថ្ងៃនេះ",
+  "@todayAbsent": {
+    "description": "Today absent count"
+  },
+  
+  "todayLate": "យឺតថ្ងៃនេះ",
+  "@todayLate": {
+    "description": "Today late count"
+  },
+  
+  "userManagement": "អ្នកប្រើប្រាស់",
+  "@userManagement": {
+    "description": "User management title"
+  },
+  
+  "attendanceReports": "របាយការណ៍វត្តមាន",
+  "@attendanceReports": {
+    "description": "Attendance reports title"
+  },
+  
+  "faceRegistration": "ចុះឈ្មោះមុខ",
+  "@faceRegistration": {
+    "description": "Face registration title"
+  },
+  
+  "addUser": "បន្ថែមអ្នកប្រើប្រាស់",
+  "@addUser": {
+    "description": "Add user button"
+  },
+  
+  "editUser": "កែប្រែអ្នកប្រើប្រាស់",
+  "@editUser": {
+    "description": "Edit user button"
+  },
+  
+  "deleteUser": "លុបអ្នកប្រើប្រាស់",
+  "@deleteUser": {
+    "description": "Delete user button"
+  },
+  
+  "cancel": "បោះបង់",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  
+  "save": "រក្សាទុក",
+  "@save": {
+    "description": "Save button"
+  },
+  
+  "confirm": "បញ្ជាក់",
+  "@confirm": {
+    "description": "Confirm button"
+  },
+  
+  "search": "ស្វែងរក",
+  "@search": {
+    "description": "Search placeholder"
+  },
+  
+  "filter": "ត្រង",
+  "@filter": {
+    "description": "Filter button"
+  },
+  
+  "export": "នាំចេញ",
+  "@export": {
+    "description": "Export button"
+  },
+  
+  "generateReport": "បង្កើតរបាយការណ៍",
+  "@generateReport": {
+    "description": "Generate report button"
+  },
+  
+  "fromDate": "ពីកាលបរិច្ឆេទ",
+  "@fromDate": {
+    "description": "From date label"
+  },
+  
+  "toDate": "ដល់កាលបរិច្ឆេទ",
+  "@toDate": {
+    "description": "To date label"
+  },
+  
+  "selectDate": "ជ្រើសរើសកាលបរិច្ឆេទ",
+  "@selectDate": {
+    "description": "Select date placeholder"
+  },
+  
+  "noData": "មិនមានទិន្នន័យ",
+  "@noData": {
+    "description": "No data message"
+  },
+  
+  "loading": "កំពុងផ្ទុក...",
+  "@loading": {
+    "description": "Loading message"
+  },
+  
+  "error": "កំហុស",
+  "@error": {
+    "description": "Error label"
+  },
+  
+  "success": "ជោគជ័យ",
+  "@success": {
+    "description": "Success label"
+  },
+  
+  "warning": "ព្រមាន",
+  "@warning": {
+    "description": "Warning label"
+  },
+  
+  "info": "ព័ត៌មាន",
+  "@info": {
+    "description": "Info label"
+  },
+  
+  "settings": "ការកំណត់",
+  "@settings": {
+    "description": "Settings title"
+  },
+  
+  "language": "ភាសា",
+  "@language": {
+    "description": "Language label"
+  },
+  
+  "notifications": "ការជូនដំណឹង",
+  "@notifications": {
+    "description": "Notifications label"
+  },
+  
+  "about": "អំពី",
+  "@about": {
+    "description": "About label"
+  },
+  
+  "version": "កំណែ",
+  "@version": {
+    "description": "Version label"
+  },
+  
+  "help": "ជំនួយ",
+  "@help": {
+    "description": "Help label"
+  },
+  
+  "contactSupport": "ទាក់ទងផ្នែកជំនួយ",
+  "@contactSupport": {
+    "description": "Contact support label"
+  },
+  
+  "register": "ចុះឈ្មោះ",
+  "@register": {
+    "description": "Register button text"
+  },
+  
+  "createAccount": "បង្កើតគណនី",
+  "@createAccount": {
+    "description": "Create account title"
+  },
+  
+  "alreadyHaveAccount": "មានគណនីរួចហើយ?",
+  "@alreadyHaveAccount": {
+    "description": "Already have account message"
+  },
+  
+  "dontHaveAccount": "មិនមានគណនី?",
+  "@dontHaveAccount": {
+    "description": "Don't have account message"
+  },
+  
+  "pleaseEnterName": "សូមបញ្ចូលឈ្មោះរបស់អ្នក",
+  "@pleaseEnterName": {
+    "description": "Name validation message"
+  },
+  
+  "passwordTooShort": "ពាក្យសម្ងាត់ត្រូវតែមានយ៉ាងហោចណាស់ ៦ តួអក្សរ",
+  "@passwordTooShort": {
+    "description": "Password length validation message"
+  },
+  
+  "confirmPassword": "បញ្ជាក់ពាក្យសម្ងាត់",
+  "@confirmPassword": {
+    "description": "Confirm password field label"
+  },
+  
+  "passwordsDoNotMatch": "ពាក្យសម្ងាត់មិនត្រូវគ្នា",
+  "@passwordsDoNotMatch": {
+    "description": "Password mismatch validation message"
+  },
+  
+  "pleaseEnterConfirmPassword": "សូមបញ្ជាក់ពាក្យសម្ងាត់របស់អ្នក",
+  "@pleaseEnterConfirmPassword": {
+    "description": "Confirm password validation message"
+  },
+  
+  "registrationSuccessful": "ចុះឈ្មោះជោគជ័យ!",
+  "@registrationSuccessful": {
+    "description": "Successful registration message"
+  }
+}
